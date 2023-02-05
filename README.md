@@ -11,7 +11,7 @@ The project exploits the louvain's algorithm library to implement the algorithm 
 ## Prerequisites
 -Python 3.11
 -Libraries:
-  * networkX
+  * networkx
   * random
   * python-louvain
   * community
