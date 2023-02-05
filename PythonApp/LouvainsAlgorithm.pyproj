@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a3fd24ed-5ba7-4275-99a4-2926de252d67</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApp.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>LouvainsAlgorithm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApp</Name>
+    <Name>LouvainsAlgorithm</Name>
     <RootNamespace>PythonApp</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApp.py" />
+    <Compile Include="LouvainsAlgorithm.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

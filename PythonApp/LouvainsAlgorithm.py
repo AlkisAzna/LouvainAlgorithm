@@ -46,6 +46,7 @@ def louvain_algorithm(nodes):
 
     # Compute the best partition
     partition = community_louvain.best_partition(G)
+    print("Modularity for MultiGraph case: " + str(community_louvain.modularity(partition, G)))
     # Draw the Graph
     plt.title("Random Multi-Graph after Louvain Algorithm")
     draw_graph(G,pos,partition,nodes)
@@ -61,6 +62,7 @@ def louvain_algorithm(nodes):
 
     # Compute the best partition
     partition = community_louvain.best_partition(G)
+    print("Modularity for Karate Club case: " + str(community_louvain.modularity(partition, G)))
     # Draw the Graph
     plt.title("Karate Graph after Louvain Algorithm")
     draw_graph(G,pos, partition,nodes)
